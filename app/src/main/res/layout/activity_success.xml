@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="475dp"
+        app:srcCompat="@drawable/justtremolologo" />
+
+    <TextView
+        android:paddingTop="20dp"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-thin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ha ingresado satisfactoriamente"/>
+
+</LinearLayout>
