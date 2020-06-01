@@ -39,14 +39,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void ingresar() {
-        if(correo.getText().toString() == "Carlosbom" && contraseña.getText().toString() == "123456")
+        if(correo.getText().toString().equals("Carlosbom") && contraseña.getText().toString().equals("123456"))
         {
             Intent intent = new Intent(this, SuccesActivity.class);
             startActivity(intent);
         }
         else
         {
-            Toast.makeText(getApplicationContext(),"EL usuario o la contraseña están incorrectos.",Toast. LENGTH_SHORT);
+            Toast.makeText(getApplicationContext(),"EL usuario o la contraseña están incorrectos.",Toast. LENGTH_SHORT).show();
         }
     }
 
